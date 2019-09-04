@@ -57,9 +57,6 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
     }
     
     //Mark: Actions
-    @IBAction func setDefaultLabelText(_ sender: UIButton) {
-        mealNameLabel.text = "Default Name"
-    }
     
     @IBAction func selectImageFromPhotoLibrary(_ sender: UITapGestureRecognizer) {
         
