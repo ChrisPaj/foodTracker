@@ -37,6 +37,7 @@ import UIKit
     //MARK: Button Action
     
     @objc func ratingButtonTapped(button: UIButton) {
+        
         guard let index = ratingButtons.index(of: button) else {
             fatalError("The button, \(button), is not in the ratingButtons array: \(ratingButtons)")
         }
@@ -81,7 +82,7 @@ import UIKit
             button.setImage(highlightedStar, for: [.highlighted, .selected])
             
             // Add constraints
-            
+            // disables the button’s automatically generated constraints
             button.translatesAutoresizingMaskIntoConstraints = false
             button.heightAnchor.constraint(equalToConstant: starSize.height).isActive = true
             button.widthAnchor.constraint(equalToConstant: starSize.width).isActive = true
@@ -108,7 +109,7 @@ import UIKit
     private func updateButtonSelectionStates() {
         for (index, button) in ratingButtons.enumerated() {
             
-            // If the index of a button is less than the rating, that button should be selected.
+            // If the index of a button is less than the rating, that button should be selected, e.g. be filled
             button.isSelected = index < rating
             
             // Set the hint string for the currently selected star
