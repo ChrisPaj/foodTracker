@@ -205,13 +205,16 @@
 				TargetAttributes = {
 					1516597D230FE93C0029073B = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1030;
 					};
 					15165991230FE93E0029073B = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1030;
 						TestTargetID = 1516597D230FE93C0029073B;
 					};
 					1516599C230FE93E0029073B = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1030;
 						TestTargetID = 1516597D230FE93C0029073B;
 					};
 				};
@@ -456,7 +459,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.FoodTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -473,7 +476,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.FoodTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -492,7 +495,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.FoodTrackerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodTracker.app/FoodTracker";
 			};
@@ -512,7 +515,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.FoodTrackerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodTracker.app/FoodTracker";
 			};
@@ -531,7 +534,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.FoodTrackerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = FoodTracker;
 			};
@@ -550,7 +553,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.FoodTrackerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = FoodTracker;
 			};
